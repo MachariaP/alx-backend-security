@@ -53,6 +53,9 @@ MIDDLEWARE = [
     'ip_tracking.middleware.IPLoggingMiddleware',
 ]
 
+RATELIMIT_USE_CACHE = 'default'
+RATELIMIT_CACHE = 'default'
+
 ROOT_URLCONF = 'alx_backend_security.urls'
 
 TEMPLATES = [
