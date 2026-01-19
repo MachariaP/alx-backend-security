@@ -1,0 +1,183 @@
+# Python / Django
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+.cache/
+nosetests.xml
+coverage/
+*.cover
+*.coverage.*
+.dmypy.json
+dmypy.json
+.pytype/
+.mypy_cache/
+.pyre/
+
+# Django / web framework
+*.log
+*.pot
+*.sqlite3
+*.sqlite3-journal
+*.db
+*.db-journal
+media/
+staticfiles/
+collectedstatic/
+debug_toolbar/
+*.DS_Store
+
+# Migrations that should usually not be committed (optional - decide per team/project)
+# */migrations/*.py
+# !*/migrations/__init__.py
+
+# Development tools
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+.AppleDouble
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+.env.local
+.env.development
+.env.test
+.env.production
+.secrets
+*.key
+*.pem
+*.crt
+*.cer
+*.jks
+*.keystore
+*.p12
+*.pfx
+
+# Dependency management
+Pipfile.lock
+requirements.txt.lock
+poetry.lock
+pdm.lock
+uv.lock
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+sdist/
+var/
+*.egg
+MANIFEST
+
+# Testing & coverage
+htmlcov/
+.coverage.*
+coverage.xml
+*.cover
+coverage/
+tox/
+nox/
+
+# IDE / editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+*.atom/
+*.netbeans*
+*.project
+*.pydevproject
+.classpath
+.settings/
+.project
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Logs & temporary files
+*.log*
+*.tmp
+*.bak
+*.backup
+*.old
+*.sw?
+
+# Package manager caches
+.npm/
+.yarn/
+.pnpm-store/
+bun.lockb
+
+# Docker & containers
+docker-compose.override.yml
+*.dockerignore
+
+# Database backups / dumps
+*.sql
+*.dump
+*.bak.sql
+*.sql.gz
+*.sql.bz2
+
+# macOS junk
+.AppleDouble
+.LSOverride
+.fseventsd/
+.Spotlight-V100/
+.TemporaryItems/
+.Trashes/
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Windows junk
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# JetBrains family IDEs
+.idea/
+*.iml
+*.iws
+out/
+
+# -------------------------------
+# Explicitly ignore your virtual environment
+# -------------------------------
+.venv/
+venv/
+virtualenv/
+.venv.bak/
